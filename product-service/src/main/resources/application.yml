@@ -1,0 +1,14 @@
+server:
+  port: 5050
+
+spring:
+  datasource:
+    username: 'postgres'
+    password: 'root'
+    driver-class-name: org.postgresql.Driver
+    url: 'jdbc:postgresql://localhost:5432/marketingProductDB'
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
